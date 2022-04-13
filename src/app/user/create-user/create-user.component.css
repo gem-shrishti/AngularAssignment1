@@ -1,0 +1,41 @@
+.main-heading{
+    text-align: center;
+    font-style: italic;
+    text-decoration: underline;
+}
+.label{
+    font-weight: bold;
+}
+.asterik{
+    color: rgb(204, 5, 5);
+}
+.createuser{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    box-shadow: inset;
+    width: 50%;
+    /* margin-top: 70px; */
+    margin-left: 350px;
+}
+.name.ng-touched.ng-invalid{
+    border: 1px solid red;
+    box-shadow: 0 0 13px inset rgb(241, 200, 200);
+}
+.email.ng-touched.ng-invalid{
+    border: 1px solid red;
+    box-shadow: 0 0 13px inset rgb(241, 200, 200);
+}
+.mobile.ng-touched.ng-invalid{
+    border: 1px solid red;
+    box-shadow: 0 0 13px inset rgb(241, 200, 200);
+}
+input.ng-invalid.ng-touched,
+
+ select.ng-invalid.ng-touched{
+
+     border: 1px solid red;
+
+     box-shadow: 0 0 10px inset;
+
+ }

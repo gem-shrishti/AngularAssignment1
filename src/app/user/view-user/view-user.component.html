@@ -1,0 +1,21 @@
+<h2 id="main-heading"><i><u>VIEW USER DETAILS</u></i></h2>
+<table class="table ">
+          <tr>
+        <th >Name</th>
+        <th >Gender</th>
+        <th >Email</th>
+        <th >Contact Number</th>
+        <th>Category</th>
+        <th >Technology</th>
+        <th >Profile Photo</th>
+      </tr>
+        <tr class="data-item" *ngFor="let item of userData">
+        <td >{{item.name}}</td>
+        <td >{{item.gender}}</td>
+        <td>{{item.email}}</td>
+        <td>{{item.mobile}}</td>
+        <td>{{item.category}}</td>
+        <td>{{item.technology}}</td>
+        <td><img [src]='item.photo' alt="profile photo" height="100" width="100"></td>
+      </tr>
+    </table>
